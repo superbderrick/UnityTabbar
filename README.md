@@ -1,6 +1,6 @@
 # SummerPlayer
-- SummerPlayer is simple videoPlayer app.
-- It supports Android iOS mobile platforms. 
+- SummerPlayer is simple videoPlayer app(Android and ios Both).
+- It will be used Android(exoplayer) and iOS(AVPlayer API).
 
 Features.
 
