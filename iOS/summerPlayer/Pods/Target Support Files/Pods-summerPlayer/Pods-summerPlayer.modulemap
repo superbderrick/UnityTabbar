@@ -1,0 +1,6 @@
+framework module Pods_summerPlayer {
+  umbrella header "Pods-summerPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
