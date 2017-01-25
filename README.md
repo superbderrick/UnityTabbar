@@ -3,7 +3,7 @@
 - It will be used Android(Exoplayer) and iOS(AVPlayer API).
 
 
-- Using open sources.
+# Using open sources.
 
 	iOS 
 		UI :XLPagerTabStrip.
@@ -11,7 +11,7 @@
 	Android
 		Player :ExoPlayer.
 
-- DevelopPlan.
+# Development Plan.
 - Localfile Play.
 - SMI ,SRT.
 - Live Streaming Play HLS.
