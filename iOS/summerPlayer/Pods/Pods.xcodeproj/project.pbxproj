@@ -7,99 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9A802658C94CA46311FB22045C74A5 /* Pods-summerPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D87C5812375C6BA67D568C3D384FF2 /* Pods-summerPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EFD1FF643346FF85C83679F659672CA /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F3FC5D877738CFD3367D01550D0C70 /* Stream.swift */; };
-		30A8F35FCAB29F5FBFC9F3F7E25A3B6B /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3DBDB13B1826A8CCA8B3B00610C92 /* ServerTrustPolicy.swift */; };
-		3E9392CB5BD9C0CC47B04EDB40639558 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B4F3CA939DD62C57BB793308D6A26 /* Validation.swift */; };
-		69A447D12E60E5C3451DA30C6BB4BF7F /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A4953AA34CDFBD543E6429E112A97D /* Manager.swift */; };
-		6C84D08371F26D25DC6FF317E99E1F93 /* Pods-summerPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975E76552ED31E3C19D8A57563B3168 /* Pods-summerPlayer-dummy.m */; };
-		848CEFBFC69DEBAF0E18885F3269F439 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1208A1C12FA12061B6446436A44A9A4 /* ResponseSerialization.swift */; };
-		9077ECA2FA7B9C5D73365490A3D8898F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596D37D65C2EC2AB28A8FC0FB1E0C653 /* Download.swift */; };
-		A215FAB60CB15B6E5FA3A15E9E350D7D /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1B44A3B10C3E7728FFD14F12A1CB4E /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8B5EDB7371475F62767B297B1A10CDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B2B7A117D61C0D1B7CD07C84BDEEC /* ParameterEncoding.swift */; };
-		BD932AB2F4C149DF7C804EC3A12A2E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		D168989618C214CB4D15CB8EC3081981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		D39B20327B1DAF6D8753ED5685DDE6DC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD68604A897951819965F3DB7B39E95 /* MultipartFormData.swift */; };
-		D8136D3B59D4753690000387A8082B54 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95E65C21F7767E2A7444314614728B /* Alamofire-dummy.m */; };
-		E6D041ABFBB48D9F1D8AA96E7D4C6C34 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85391133F9FAEB0844D5DC13E9DA71F /* Result.swift */; };
-		E7B226D8BB16471AD63665A794036E44 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F69A25685DA4AFC97A2DD87554383D /* Upload.swift */; };
-		E816509B4E3564E1A117CBDC0D845D69 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544D7E2F0B75120E47EB1D807A4A0803 /* Alamofire.swift */; };
-		F16FEF1CB9703FE1887C8A618B84B7C6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42ABD052DF209D0761A0BF74AAD24E /* Request.swift */; };
-		FE1F95F519342B9266EB69B23B4336CF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7248DFDFE23A522CAB9148641C7E69A4 /* Error.swift */; };
+		182CCED956B501FE9D3A037031BA38A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		23DA13411D0B330486D5BC31187673C9 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */; };
+		3061228E3FFABEF62257B8DBCC7F19FD /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */; };
+		31CD10AEB8391BC5EB32A1297163F499 /* Pods-summerPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D87C5812375C6BA67D568C3D384FF2 /* Pods-summerPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EFE28400D988CDC59A23EA0F27C4619 /* PagingMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D6E72BB4C3561D0B435872ECE80160 /* PagingMenuController-dummy.m */; };
+		44E78F702253A5678540A28762B88E76 /* Pods-summerPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1975E76552ED31E3C19D8A57563B3168 /* Pods-summerPlayer-dummy.m */; };
+		4F63CC2B29A00DCEDC0DA283FCF41E29 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */; };
+		54E54F16DD83803707D62FCBF5C98F30 /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */; };
+		7EF837B610040A9D135B728B6D8D87AB /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */; };
+		8AA487659F2CD00B2CF2C9513412BEDC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */; };
+		CCC5F224C2BE23116ADDDC7E1BD1692A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D66C7EDBE7F246D958850582B57DAE8E /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */; };
+		E8E7969EC8F3EAE250CEBAC698F228D6 /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */; };
+		FA701FDE994A93B9E46F468631C6C76A /* PagingMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F9F7842FABE8C9D6C4DA619BB21A87 /* PagingMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5A51796D639257E4A8FF7D6E9984B814 /* PBXContainerItemProxy */ = {
+		611F222B44BD222DA1D4D0BB9029E09F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4B2F30D90D85A544E9EFE2A49D392C25;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 97174972421DF0FBBC49B06FC08D6732;
+			remoteInfo = PagingMenuController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01EDBAAFFEFE55701B1B483036B9E159 /* Pods-summerPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-summerPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		03A2D6EDBB831DD85CA1B9CA77016728 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		0E9CEDD7F91F8A5B134F1455F8D66B81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D9FC401E1DFCDF78B4A23B50B32E06 /* Pods_summerPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summerPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D87C5812375C6BA67D568C3D384FF2 /* Pods-summerPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-summerPlayer-umbrella.h"; sourceTree = "<group>"; };
 		12764E43ED5C2539A4C02A1988434680 /* Pods-summerPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-summerPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
 		1975E76552ED31E3C19D8A57563B3168 /* Pods-summerPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-summerPlayer-dummy.m"; sourceTree = "<group>"; };
+		1BF6ACBFEABC76E7776D41CD557832E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CFD721DDE22679EA0B8FE33941E7DDC /* Pods-summerPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-summerPlayer.modulemap"; sourceTree = "<group>"; };
-		1E1B2B7A117D61C0D1B7CD07C84BDEEC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		1EDA04A25DCF26622E83B2ABE388DC33 /* Pods-summerPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-summerPlayer-frameworks.sh"; sourceTree = "<group>"; };
-		2A1BA02EB30FF13F545978D4B23F6B68 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		2A95E65C21F7767E2A7444314614728B /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		38F18F6826C61CE5A395F899C78135F7 /* Pods_summerPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summerPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39F69A25685DA4AFC97A2DD87554383D /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		3E1B44A3B10C3E7728FFD14F12A1CB4E /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		4BD68604A897951819965F3DB7B39E95 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		264A15A6CAA5C7A7A25C4497DA703E58 /* PagingMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PagingMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewCustomizable.swift; path = Pod/Classes/Protocols/MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemViewCustomizable.swift; path = Pod/Classes/Protocols/MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Pod/Classes/MenuView.swift; sourceTree = "<group>"; };
+		47E28D7EB25D4FB594C55F62F85CAD02 /* PagingMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingMenuController.xcconfig; sourceTree = "<group>"; };
 		537A7EDDCBFE054F9A7D59D825908B7B /* Pods-summerPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-summerPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		544D7E2F0B75120E47EB1D807A4A0803 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		596D37D65C2EC2AB28A8FC0FB1E0C653 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		6DE3DBDB13B1826A8CCA8B3B00610C92 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		70AE764584FC459D898AB8465BD172E2 /* Pods-summerPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-summerPlayer-resources.sh"; sourceTree = "<group>"; };
-		7248DFDFE23A522CAB9148641C7E69A4 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuController.swift; path = Pod/Classes/PagingMenuController.swift; sourceTree = "<group>"; };
+		8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagable.swift; path = Pod/Classes/Protocols/Pagable.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D8B4F3CA939DD62C57BB793308D6A26 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		A1208A1C12FA12061B6446436A44A9A4 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		BC42ABD052DF209D0761A0BF74AAD24E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		BCB9ECB2184FAB2BAE8AFA754F30C90B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		94D6E72BB4C3561D0B435872ECE80160 /* PagingMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingMenuController-dummy.m"; sourceTree = "<group>"; };
+		A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Pod/Classes/MenuItemView.swift; sourceTree = "<group>"; };
+		A8F9F7842FABE8C9D6C4DA619BB21A87 /* PagingMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-umbrella.h"; sourceTree = "<group>"; };
+		C992D787C821470A34C88A91266C3CE1 /* PagingMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PagingMenuController.modulemap; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Pod/Classes/PagingViewController.swift; sourceTree = "<group>"; };
 		D9012B32B2C79239F487D72EFE95C382 /* Pods-summerPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-summerPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5F3FC5D877738CFD3367D01550D0C70 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		E85391133F9FAEB0844D5DC13E9DA71F /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		E9A4953AA34CDFBD543E6429E112A97D /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuControllerCustomizable.swift; path = Pod/Classes/Protocols/PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
 		EE51F9DD92FFA13977A8CB08F9ECF1DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74C44B859AC5C59A1D41C8D64AD61E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32CD915F54CED6BBA920198B7EFD144 /* PagingMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14409D151BCE19B917E1ACDD56DC85F6 /* Frameworks */ = {
+		2945829FBAEAD0CE35D387FFE8AEB3E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD932AB2F4C149DF7C804EC3A12A2E57 /* Foundation.framework in Frameworks */,
+				182CCED956B501FE9D3A037031BA38A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33F46C6769B06D1B36D976DE2A274379 /* Frameworks */ = {
+		89171D1272D6BD058BC609FDE2E71803 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D168989618C214CB4D15CB8EC3081981 /* Foundation.framework in Frameworks */,
+				CCC5F224C2BE23116ADDDC7E1BD1692A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AE0E8F053D6AABC5B5D7E2501427933 /* Pods */ = {
+		109ADABCC32D4A86647974C77CFA8107 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67001837AB5FCABBE304708604BCC355 /* Alamofire */,
+				264A15A6CAA5C7A7A25C4497DA703E58 /* PagingMenuController.framework */,
+				04D9FC401E1DFCDF78B4A23B50B32E06 /* Pods_summerPlayer.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -110,34 +101,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		67001837AB5FCABBE304708604BCC355 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				544D7E2F0B75120E47EB1D807A4A0803 /* Alamofire.swift */,
-				596D37D65C2EC2AB28A8FC0FB1E0C653 /* Download.swift */,
-				7248DFDFE23A522CAB9148641C7E69A4 /* Error.swift */,
-				E9A4953AA34CDFBD543E6429E112A97D /* Manager.swift */,
-				4BD68604A897951819965F3DB7B39E95 /* MultipartFormData.swift */,
-				1E1B2B7A117D61C0D1B7CD07C84BDEEC /* ParameterEncoding.swift */,
-				BC42ABD052DF209D0761A0BF74AAD24E /* Request.swift */,
-				A1208A1C12FA12061B6446436A44A9A4 /* ResponseSerialization.swift */,
-				E85391133F9FAEB0844D5DC13E9DA71F /* Result.swift */,
-				6DE3DBDB13B1826A8CCA8B3B00610C92 /* ServerTrustPolicy.swift */,
-				E5F3FC5D877738CFD3367D01550D0C70 /* Stream.swift */,
-				39F69A25685DA4AFC97A2DD87554383D /* Upload.swift */,
-				9D8B4F3CA939DD62C57BB793308D6A26 /* Validation.swift */,
-				CA9B28A4AC1C278482C5D8EF337004F8 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2AE0E8F053D6AABC5B5D7E2501427933 /* Pods */,
-				CAE925FCDD01A5D51ECF6319440D8B39 /* Products */,
+				AF0D07A1A79D0B6C60392DDB1D3D7146 /* Pods */,
+				109ADABCC32D4A86647974C77CFA8107 /* Products */,
 				EE877FA82B33B6A4371E6F53561A879E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -160,35 +130,50 @@
 			path = "Target Support Files/Pods-summerPlayer";
 			sourceTree = "<group>";
 		};
+		A3B3FE888C7856F03B4A02AADB61CFA8 /* PagingMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */,
+				41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */,
+				435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */,
+				346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */,
+				8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */,
+				72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */,
+				DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */,
+				D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */,
+				AE1E98E7F4AD8E211674DE23EC367D59 /* Support Files */,
+			);
+			path = PagingMenuController;
+			sourceTree = "<group>";
+		};
+		AE1E98E7F4AD8E211674DE23EC367D59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BF6ACBFEABC76E7776D41CD557832E8 /* Info.plist */,
+				C992D787C821470A34C88A91266C3CE1 /* PagingMenuController.modulemap */,
+				47E28D7EB25D4FB594C55F62F85CAD02 /* PagingMenuController.xcconfig */,
+				94D6E72BB4C3561D0B435872ECE80160 /* PagingMenuController-dummy.m */,
+				F32CD915F54CED6BBA920198B7EFD144 /* PagingMenuController-prefix.pch */,
+				A8F9F7842FABE8C9D6C4DA619BB21A87 /* PagingMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PagingMenuController";
+			sourceTree = "<group>";
+		};
+		AF0D07A1A79D0B6C60392DDB1D3D7146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3B3FE888C7856F03B4A02AADB61CFA8 /* PagingMenuController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA9B28A4AC1C278482C5D8EF337004F8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCB9ECB2184FAB2BAE8AFA754F30C90B /* Alamofire.modulemap */,
-				03A2D6EDBB831DD85CA1B9CA77016728 /* Alamofire.xcconfig */,
-				2A95E65C21F7767E2A7444314614728B /* Alamofire-dummy.m */,
-				2A1BA02EB30FF13F545978D4B23F6B68 /* Alamofire-prefix.pch */,
-				3E1B44A3B10C3E7728FFD14F12A1CB4E /* Alamofire-umbrella.h */,
-				F74C44B859AC5C59A1D41C8D64AD61E3 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		CAE925FCDD01A5D51ECF6319440D8B39 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0E9CEDD7F91F8A5B134F1455F8D66B81 /* Alamofire.framework */,
-				38F18F6826C61CE5A395F899C78135F7 /* Pods_summerPlayer.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		EE877FA82B33B6A4371E6F53561A879E /* Targets Support Files */ = {
@@ -202,58 +187,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7C04A325609B09AF7A60311692B45298 /* Headers */ = {
+		AE7D77D93FC6994F396849DD84E8C407 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9A802658C94CA46311FB22045C74A5 /* Pods-summerPlayer-umbrella.h in Headers */,
+				31CD10AEB8391BC5EB32A1297163F499 /* Pods-summerPlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF115D13DFBDD03E0ABD3097C5108DCC /* Headers */ = {
+		B198E87ACEF5B57E1FFFF3E2F94DDA4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A215FAB60CB15B6E5FA3A15E9E350D7D /* Alamofire-umbrella.h in Headers */,
+				FA701FDE994A93B9E46F468631C6C76A /* PagingMenuController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B2F30D90D85A544E9EFE2A49D392C25 /* Alamofire */ = {
+		97174972421DF0FBBC49B06FC08D6732 /* PagingMenuController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70DA65F1729D88E78F64BE8BACBAD6AC /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = 15FD9B0B8CE10F5C9FB5AEAD52512876 /* Build configuration list for PBXNativeTarget "PagingMenuController" */;
 			buildPhases = (
-				5FBF281000F4380394A2338B903D6017 /* Sources */,
-				14409D151BCE19B917E1ACDD56DC85F6 /* Frameworks */,
-				EF115D13DFBDD03E0ABD3097C5108DCC /* Headers */,
+				2E4549C2559B98938FB6971C00BFE1EF /* Sources */,
+				2945829FBAEAD0CE35D387FFE8AEB3E8 /* Frameworks */,
+				B198E87ACEF5B57E1FFFF3E2F94DDA4B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Alamofire;
-			productName = Alamofire;
-			productReference = 0E9CEDD7F91F8A5B134F1455F8D66B81 /* Alamofire.framework */;
+			name = PagingMenuController;
+			productName = PagingMenuController;
+			productReference = 264A15A6CAA5C7A7A25C4497DA703E58 /* PagingMenuController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		82501456934653B602527B5E3F9DCD8C /* Pods-summerPlayer */ = {
+		DEA4EFA2CDBFDC727A147AFDA92C209C /* Pods-summerPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4D394E2BFED0706EED62763C66B20BF /* Build configuration list for PBXNativeTarget "Pods-summerPlayer" */;
+			buildConfigurationList = AC3405CC5D52D8D382DE89AD82A86F63 /* Build configuration list for PBXNativeTarget "Pods-summerPlayer" */;
 			buildPhases = (
-				6AF273ED2084FF3B887B11533990ABE3 /* Sources */,
-				33F46C6769B06D1B36D976DE2A274379 /* Frameworks */,
-				7C04A325609B09AF7A60311692B45298 /* Headers */,
+				2C309B36DAEFFABF29791A4CE88B9EDC /* Sources */,
+				89171D1272D6BD058BC609FDE2E71803 /* Frameworks */,
+				AE7D77D93FC6994F396849DD84E8C407 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D66C14A998E63AC5F303767AE435A9AC /* PBXTargetDependency */,
+				4C053E15F6731E81F7DFBFC858123228 /* PBXTargetDependency */,
 			);
 			name = "Pods-summerPlayer";
 			productName = "Pods-summerPlayer";
-			productReference = 38F18F6826C61CE5A395F899C78135F7 /* Pods_summerPlayer.framework */;
+			productReference = 04D9FC401E1DFCDF78B4A23B50B32E06 /* Pods_summerPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -273,223 +258,54 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CAE925FCDD01A5D51ECF6319440D8B39 /* Products */;
+			productRefGroup = 109ADABCC32D4A86647974C77CFA8107 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B2F30D90D85A544E9EFE2A49D392C25 /* Alamofire */,
-				82501456934653B602527B5E3F9DCD8C /* Pods-summerPlayer */,
+				97174972421DF0FBBC49B06FC08D6732 /* PagingMenuController */,
+				DEA4EFA2CDBFDC727A147AFDA92C209C /* Pods-summerPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5FBF281000F4380394A2338B903D6017 /* Sources */ = {
+		2C309B36DAEFFABF29791A4CE88B9EDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8136D3B59D4753690000387A8082B54 /* Alamofire-dummy.m in Sources */,
-				E816509B4E3564E1A117CBDC0D845D69 /* Alamofire.swift in Sources */,
-				9077ECA2FA7B9C5D73365490A3D8898F /* Download.swift in Sources */,
-				FE1F95F519342B9266EB69B23B4336CF /* Error.swift in Sources */,
-				69A447D12E60E5C3451DA30C6BB4BF7F /* Manager.swift in Sources */,
-				D39B20327B1DAF6D8753ED5685DDE6DC /* MultipartFormData.swift in Sources */,
-				A8B5EDB7371475F62767B297B1A10CDE /* ParameterEncoding.swift in Sources */,
-				F16FEF1CB9703FE1887C8A618B84B7C6 /* Request.swift in Sources */,
-				848CEFBFC69DEBAF0E18885F3269F439 /* ResponseSerialization.swift in Sources */,
-				E6D041ABFBB48D9F1D8AA96E7D4C6C34 /* Result.swift in Sources */,
-				30A8F35FCAB29F5FBFC9F3F7E25A3B6B /* ServerTrustPolicy.swift in Sources */,
-				0EFD1FF643346FF85C83679F659672CA /* Stream.swift in Sources */,
-				E7B226D8BB16471AD63665A794036E44 /* Upload.swift in Sources */,
-				3E9392CB5BD9C0CC47B04EDB40639558 /* Validation.swift in Sources */,
+				44E78F702253A5678540A28762B88E76 /* Pods-summerPlayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AF273ED2084FF3B887B11533990ABE3 /* Sources */ = {
+		2E4549C2559B98938FB6971C00BFE1EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C84D08371F26D25DC6FF317E99E1F93 /* Pods-summerPlayer-dummy.m in Sources */,
+				D66C7EDBE7F246D958850582B57DAE8E /* MenuItemView.swift in Sources */,
+				7EF837B610040A9D135B728B6D8D87AB /* MenuItemViewCustomizable.swift in Sources */,
+				8AA487659F2CD00B2CF2C9513412BEDC /* MenuView.swift in Sources */,
+				23DA13411D0B330486D5BC31187673C9 /* MenuViewCustomizable.swift in Sources */,
+				54E54F16DD83803707D62FCBF5C98F30 /* Pagable.swift in Sources */,
+				3EFE28400D988CDC59A23EA0F27C4619 /* PagingMenuController-dummy.m in Sources */,
+				4F63CC2B29A00DCEDC0DA283FCF41E29 /* PagingMenuController.swift in Sources */,
+				E8E7969EC8F3EAE250CEBAC698F228D6 /* PagingMenuControllerCustomizable.swift in Sources */,
+				3061228E3FFABEF62257B8DBCC7F19FD /* PagingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D66C14A998E63AC5F303767AE435A9AC /* PBXTargetDependency */ = {
+		4C053E15F6731E81F7DFBFC858123228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 4B2F30D90D85A544E9EFE2A49D392C25 /* Alamofire */;
-			targetProxy = 5A51796D639257E4A8FF7D6E9984B814 /* PBXContainerItemProxy */;
+			name = PagingMenuController;
+			target = 97174972421DF0FBBC49B06FC08D6732 /* PagingMenuController */;
+			targetProxy = 611F222B44BD222DA1D4D0BB9029E09F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2CB1BA859AD62CB956AC39F8333EE551 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A2D6EDBB831DD85CA1B9CA77016728 /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7129E45FFC4CFE8C73C154C2D6940220 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 537A7EDDCBFE054F9A7D59D825908B7B /* Pods-summerPlayer.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-summerPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-summerPlayer/Pods-summerPlayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_summerPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D069DAC03B1FA1CE52E5FCAD78394BAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A2D6EDBB831DD85CA1B9CA77016728 /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D560687C2EAA7604298B56AEE78343D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EDED7F0119526795908F6DCA29B26C1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01EDBAAFFEFE55701B1B483036B9E159 /* Pods-summerPlayer.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-summerPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-summerPlayer/Pods-summerPlayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_summerPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F1CACC81189ECB1BB82CE47F73EBE3D1 /* Debug */ = {
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -524,39 +340,207 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		4CE707E5437FCFB445DE20687A44A3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E28D7EB25D4FB594C55F62F85CAD02 /* PagingMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PagingMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		538B0CDBC29B1A206318709B9604B584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EDBAAFFEFE55701B1B483036B9E159 /* Pods-summerPlayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-summerPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-summerPlayer/Pods-summerPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_summerPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		872C904398395D4922B35A6527A3D5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537A7EDDCBFE054F9A7D59D825908B7B /* Pods-summerPlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-summerPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-summerPlayer/Pods-summerPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_summerPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE80ABBB8395A30DC351E2C3AB7C0F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E28D7EB25D4FB594C55F62F85CAD02 /* PagingMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PagingMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		15FD9B0B8CE10F5C9FB5AEAD52512876 /* Build configuration list for PBXNativeTarget "PagingMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE707E5437FCFB445DE20687A44A3CB /* Debug */,
+				CE80ABBB8395A30DC351E2C3AB7C0F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1CACC81189ECB1BB82CE47F73EBE3D1 /* Debug */,
-				D560687C2EAA7604298B56AEE78343D9 /* Release */,
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70DA65F1729D88E78F64BE8BACBAD6AC /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		AC3405CC5D52D8D382DE89AD82A86F63 /* Build configuration list for PBXNativeTarget "Pods-summerPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D069DAC03B1FA1CE52E5FCAD78394BAF /* Debug */,
-				2CB1BA859AD62CB956AC39F8333EE551 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B4D394E2BFED0706EED62763C66B20BF /* Build configuration list for PBXNativeTarget "Pods-summerPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7129E45FFC4CFE8C73C154C2D6940220 /* Debug */,
-				EDED7F0119526795908F6DCA29B26C1A /* Release */,
+				872C904398395D4922B35A6527A3D5E8 /* Debug */,
+				538B0CDBC29B1A206318709B9604B584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

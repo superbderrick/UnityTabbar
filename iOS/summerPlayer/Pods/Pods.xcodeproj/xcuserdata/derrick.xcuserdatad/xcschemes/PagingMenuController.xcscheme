@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4B2F30D90D85A544E9EFE2A49D392C25'
-               BlueprintName = 'Alamofire'
+               BlueprintIdentifier = '97174972421DF0FBBC49B06FC08D6732'
+               BlueprintName = 'PagingMenuController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Alamofire.framework'>
+               BuildableName = 'PagingMenuController.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
