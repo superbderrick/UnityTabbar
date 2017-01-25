@@ -9,10 +9,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>XLPagerTabStrip-XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D21ADE8ACD0F87894675622ACB2213C3</key>
+		<key>05FCD6E058070C23E4B645A64E959458</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>726375AD80F86A683CFCDA12D3C50C17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73454A415A1A2EC01B2C038ABB5018A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
