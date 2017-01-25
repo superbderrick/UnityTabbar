@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PagingMenuController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-summerPlayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>97174972421DF0FBBC49B06FC08D6732</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DEA4EFA2CDBFDC727A147AFDA92C209C</key>
+		<key>D21ADE8ACD0F87894675622ACB2213C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

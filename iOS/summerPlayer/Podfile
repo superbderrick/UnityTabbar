@@ -6,7 +6,7 @@ target 'summerPlayer' do
 
 # Libary List.
 # PagingMenu.
-pod "PagingMenuController"
+#pod "PagingMenuController"
 
 post_install do |installer|
  installer.pods_project.targets.each do |target|
