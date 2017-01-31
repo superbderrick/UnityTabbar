@@ -16,14 +16,13 @@ class MainViewController: ButtonBarPagerTabStripViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-    settings.style.buttonBarBackgroundColor = .white
+    settings.style.buttonBarBackgroundColor = .red
     settings.style.buttonBarItemBackgroundColor = .white
     settings.style.selectedBarBackgroundColor = blueInstagramColor
     settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 14)
     settings.style.selectedBarHeight = 2.0
     settings.style.buttonBarMinimumLineSpacing = 0
     settings.style.buttonBarItemTitleColor = .black
-//    settings.style.buttonBarItemsShouldFillAvailableWidth = true
     settings.style.buttonBarLeftContentInset = 0
     settings.style.buttonBarRightContentInset = 0
     

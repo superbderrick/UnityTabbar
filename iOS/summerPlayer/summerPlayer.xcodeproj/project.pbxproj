@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17E68C89C4E412BB050A997A /* Pods_summerPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA5354C5B4E76FD48FDC454 /* Pods_summerPlayer.framework */; };
+		49A508FE1E40B67200F11BB4 /* InstagramExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A508FD1E40B67200F11BB4 /* InstagramExampleViewController.swift */; };
 		49A9D35C1E383C6B00234C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9D35B1E383C6B00234C46 /* AppDelegate.swift */; };
 		49A9D35E1E383C6B00234C46 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9D35D1E383C6B00234C46 /* MainViewController.swift */; };
 		49A9D3611E383C6B00234C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A9D35F1E383C6B00234C46 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		0CA5354C5B4E76FD48FDC454 /* Pods_summerPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summerPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A508FD1E40B67200F11BB4 /* InstagramExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramExampleViewController.swift; sourceTree = "<group>"; };
 		49A9D3581E383C6B00234C46 /* summerPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = summerPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A9D35B1E383C6B00234C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A9D35D1E383C6B00234C46 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		49E393941E38DAFA008EE724 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				49A508FD1E40B67200F11BB4 /* InstagramExampleViewController.swift */,
 				49E393951E38DB1F008EE724 /* ChildExampleViewController.swift */,
 				49E393961E38DB1F008EE724 /* TableChildExampleViewController.swift */,
 			);
@@ -294,6 +297,7 @@
 				49A9D35E1E383C6B00234C46 /* MainViewController.swift in Sources */,
 				49A9D35C1E383C6B00234C46 /* AppDelegate.swift in Sources */,
 				49E3939D1E38DB51008EE724 /* DataProvider.swift in Sources */,
+				49A508FE1E40B67200F11BB4 /* InstagramExampleViewController.swift in Sources */,
 				49E393971E38DB1F008EE724 /* ChildExampleViewController.swift in Sources */,
 				49E393981E38DB1F008EE724 /* TableChildExampleViewController.swift in Sources */,
 				49E3939E1E38DB51008EE724 /* PostCell.swift in Sources */,
