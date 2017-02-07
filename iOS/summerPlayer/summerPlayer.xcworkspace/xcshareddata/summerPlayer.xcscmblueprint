@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "49F6CFB284443FA9C8989551FC20013306CD4C1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "49F6CFB284443FA9C8989551FC20013306CD4C1F" : 9223372036854775807,
+    "FF277BBF96443A7AD66BBCF80D586F8E3FF7BB4F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "390DAC2B-1250-432F-AFA5-532EA3B729E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "49F6CFB284443FA9C8989551FC20013306CD4C1F" : "summerPlayer\/",
+    "FF277BBF96443A7AD66BBCF80D586F8E3FF7BB4F" : "XLPagerTabStrip\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "summerPlayer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOS\/summerPlayer\/summerPlayer.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/superbderrick\/summerPlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "49F6CFB284443FA9C8989551FC20013306CD4C1F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xmartlabs\/XLPagerTabStrip.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF277BBF96443A7AD66BBCF80D586F8E3FF7BB4F"
+    }
+  ]
+}
