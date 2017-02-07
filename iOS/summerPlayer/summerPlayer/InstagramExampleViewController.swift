@@ -54,9 +54,10 @@ class InstagramExampleViewController: ButtonBarPagerTabStripViewController {
     // MARK: - PagerTabStripDataSource
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "FOLLOWING")
-        let child_2 = ChildExampleViewController(itemInfo: "YOU")
-        return [child_1, child_2]
+        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "Local")
+        let child_2 = ChildExampleViewController(itemInfo: "Streaming")
+		let child_3 = TableChildExampleViewController(style: .plain, itemInfo: "360Contents")
+        return [child_1, child_2 ,child_3]
     }
 
     // MARK: - Custom Action
