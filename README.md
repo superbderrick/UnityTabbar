@@ -8,9 +8,11 @@
 
 	iOS 
 		UI :XLPagerTabStrip.
+		DATABASE : Realm.
 
 	Android
 		Player :ExoPlayer.
+		DATABASE : Realm.
 
 # Development Plan.
 - Localfile Play.
