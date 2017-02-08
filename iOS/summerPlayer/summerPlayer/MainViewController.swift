@@ -1,52 +1,76 @@
+//  SegmentedExampleViewController.swift
+//  XLPagerTabStrip ( https://github.com/xmartlabs/XLPagerTabStrip )
 //
-//  ViewController.swift
-//  summerPlayer
+//  Copyright (c) 2016 Xmartlabs ( http://xmartlabs.com )
 //
-//  Created by derrick on 2017. 1. 25..
-//  Copyright © 2017년 Superbderrick. All rights reserved.
 //
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
 
-import UIKit
 import Foundation
 import XLPagerTabStrip
 
-
 class MainViewController: ButtonBarPagerTabStripViewController {
-  let blueInstagramColor = UIColor(red: 37/255.0, green: 111/255.0, blue: 206/255.0, alpha: 1.0)
-
-	override func viewDidLoad() {
-		super.viewDidLoad()
-    settings.style.buttonBarBackgroundColor = .red
-    settings.style.buttonBarItemBackgroundColor = .white
-    settings.style.selectedBarBackgroundColor = blueInstagramColor
-    settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 14)
-    settings.style.selectedBarHeight = 2.0
-    settings.style.buttonBarMinimumLineSpacing = 0
-    settings.style.buttonBarItemTitleColor = .black
-    settings.style.buttonBarLeftContentInset = 0
-    settings.style.buttonBarRightContentInset = 0
     
-    changeCurrentIndexProgressive = { [weak self] (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
-      guard changeCurrentIndex == true else { return }
-      oldCell?.label.textColor = .black
-      newCell?.label.textColor = self?.blueInstagramColor
+    @IBOutlet weak var shadowView: UIView!
+    let blueInstagramColor = UIColor(red: 37/255.0, green: 111/255.0, blue: 206/255.0, alpha: 1.0)
+    
+    override func viewDidLoad() {
+      
+
+        // change selected bar color
+        settings.style.buttonBarBackgroundColor = .white
+        settings.style.buttonBarItemBackgroundColor = .white
+        settings.style.selectedBarBackgroundColor = blueInstagramColor
+        settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 14)
+        settings.style.selectedBarHeight = 2.0
+        settings.style.buttonBarMinimumLineSpacing = 0
+        settings.style.buttonBarItemTitleColor = .black
+      //  settings.style.buttonBarItemsShouldFillAvailableWidth = true
+        settings.style.buttonBarLeftContentInset = 0
+        settings.style.buttonBarRightContentInset = 0
+        
+        changeCurrentIndexProgressive = { [weak self] (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
+            guard changeCurrentIndex == true else { return }
+            oldCell?.label.textColor = .black
+            newCell?.label.textColor = self?.blueInstagramColor
+        }
+        super.viewDidLoad()
     }
-		// Do any additional setup after loading the view, typically from a nib.
-	}
-  // MARK: - PagerTabStripDataSource
-  
-  override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-    let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "FOLLOWING")
-    let child_2 = ChildExampleViewController(itemInfo: "YOU")
-    return [child_1, child_2]
-  }
+    
+    // MARK: - PagerTabStripDataSource
+    
+    override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
+        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "Local")
+        let child_2 = ChildExampleViewController(itemInfo: "Streaming")
+        let child_3 = TableChildExampleViewController(style: .plain, itemInfo: "360Contents")
+        let child_4 = TableChildExampleViewController(style: .plain, itemInfo: "Recently")
+        return [child_1, child_2 ,child_3 , child_4]
+    }
 
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
+    // MARK: - Custom Action
+    
+    @IBAction func closeAction(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
 }
+
+
+
+
 
