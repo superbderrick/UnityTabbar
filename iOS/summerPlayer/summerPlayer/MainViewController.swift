@@ -32,8 +32,6 @@ class MainViewController: ButtonBarPagerTabStripViewController {
     
     override func viewDidLoad() {
       
-
-        // change selected bar color
         settings.style.buttonBarBackgroundColor = .white
         settings.style.buttonBarItemBackgroundColor = .white
         settings.style.selectedBarBackgroundColor = blueInstagramColor
@@ -41,7 +39,6 @@ class MainViewController: ButtonBarPagerTabStripViewController {
         settings.style.selectedBarHeight = 2.0
         settings.style.buttonBarMinimumLineSpacing = 0
         settings.style.buttonBarItemTitleColor = .black
-      //  settings.style.buttonBarItemsShouldFillAvailableWidth = true
         settings.style.buttonBarLeftContentInset = 0
         settings.style.buttonBarRightContentInset = 0
         
@@ -52,12 +49,16 @@ class MainViewController: ButtonBarPagerTabStripViewController {
         }
         super.viewDidLoad()
     }
+  
+  func setupMenuStyle() {
+    
+  }
     
     // MARK: - PagerTabStripDataSource
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "Local")
-        let child_2 = ChildExampleViewController(itemInfo: "Streaming")
+        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "Streaming")
+        let child_2 = ChildExampleViewController(itemInfo: "Local")
         let child_3 = TableChildExampleViewController(style: .plain, itemInfo: "360Contents")
         let child_4 = TableChildExampleViewController(style: .plain, itemInfo: "Recently")
         return [child_1, child_2 ,child_3 , child_4]
