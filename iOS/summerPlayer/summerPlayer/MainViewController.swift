@@ -50,15 +50,12 @@ class MainViewController: ButtonBarPagerTabStripViewController {
         super.viewDidLoad()
     }
   
-  func setupMenuStyle() {
-    
-  }
+  
     
     // MARK: - PagerTabStripDataSource
-    
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "Streaming")
-        let child_2 = ChildExampleViewController(itemInfo: "Local")
+        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "Local")
+        let child_2 = TableChildExampleViewController(style: .plain, itemInfo: "Streaming")
         let child_3 = TableChildExampleViewController(style: .plain, itemInfo: "360Contents")
         let child_4 = TableChildExampleViewController(style: .plain, itemInfo: "Recently")
         return [child_1, child_2 ,child_3 , child_4]

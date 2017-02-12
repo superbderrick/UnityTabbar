@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17E68C89C4E412BB050A997A /* Pods_summerPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA5354C5B4E76FD48FDC454 /* Pods_summerPlayer.framework */; };
+		49501C161E5045AD003D69C3 /* LocalFileFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49501C151E5045AD003D69C3 /* LocalFileFilter.swift */; };
 		4960CE591E4C8DA2001E3CEC /* LocalFileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4960CE581E4C8DA2001E3CEC /* LocalFileTableViewController.swift */; };
 		49A508FE1E40B67200F11BB4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A508FD1E40B67200F11BB4 /* MainViewController.swift */; };
 		49A9D35C1E383C6B00234C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9D35B1E383C6B00234C46 /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		0CA5354C5B4E76FD48FDC454 /* Pods_summerPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summerPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49501C151E5045AD003D69C3 /* LocalFileFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalFileFilter.swift; path = ../LocalFileFilter.swift; sourceTree = "<group>"; };
 		4960CE581E4C8DA2001E3CEC /* LocalFileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalFileTableViewController.swift; path = viewControllers/LocalFileTableViewController.swift; sourceTree = "<group>"; };
 		49A508FD1E40B67200F11BB4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		49A9D3581E383C6B00234C46 /* summerPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = summerPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 		49E393991E38DB51008EE724 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				49501C151E5045AD003D69C3 /* LocalFileFilter.swift */,
 				49D0C4921E49962D00BA1291 /* Storyboard.storyboard */,
 				49E3939A1E38DB51008EE724 /* DataProvider.swift */,
 				49E3939B1E38DB51008EE724 /* PostCell.swift */,
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A9D35C1E383C6B00234C46 /* AppDelegate.swift in Sources */,
+				49501C161E5045AD003D69C3 /* LocalFileFilter.swift in Sources */,
 				49E3939D1E38DB51008EE724 /* DataProvider.swift in Sources */,
 				4960CE591E4C8DA2001E3CEC /* LocalFileTableViewController.swift in Sources */,
 				49A508FE1E40B67200F11BB4 /* MainViewController.swift in Sources */,
