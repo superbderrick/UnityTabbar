@@ -3,18 +3,12 @@
 - It will be used Android(Exoplayer) and iOS(AVPlayer API)with swift 3.0.
 - iOS (ios9) Android (A kitkat OS version or higher is recommended.)
 
+# Notice
+It changed to each others platforms repository.
+Please check below repository.
 
-# Using open sources.
+# Android
+	[SummerPlayer for Android](https://github.com/superbderrick/SummerPlayer_Android)
 
-	iOS 
-		UI :XLPagerTabStrip.
-		DATABASE : Realm.
-
-	Android
-		Player :ExoPlayer.
-		DATABASE : Realm.
-
-# Development Plan.
-- Localfile Play.
-- SMI ,SRT.
-- Live Streaming Play HLS.
+# iOS
+	[SummerPlayer for iOS](https://github.com/superbderrick/SummerPlayer_iOS)
