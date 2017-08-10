@@ -8,7 +8,7 @@ It changed to each others platforms repository.
 Please check below repository.
 
 # Android
-	[SummerPlayer for Android](https://github.com/superbderrick/SummerPlayer_Android)
+[SummerPlayer for Android](https://github.com/superbderrick/SummerPlayer_Android)
 
 # iOS
-	[SummerPlayer for iOS](https://github.com/superbderrick/SummerPlayer_iOS)
+[SummerPlayer for iOS](https://github.com/superbderrick/SummerPlayer_iOS)
