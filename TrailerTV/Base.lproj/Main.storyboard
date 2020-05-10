@@ -65,21 +65,33 @@
                                 <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="3G2-aT-yl8">
+                                <rect key="frame" x="197" y="603" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sXv-N2-RIl" secondAttribute="trailing" constant="20" id="2ql-sS-N2q"/>
                             <constraint firstItem="qHR-bn-QYh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="3lk-kS-izq"/>
                             <constraint firstItem="qHR-bn-QYh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="CBO-gy-HKa"/>
+                            <constraint firstItem="sXv-N2-RIl" firstAttribute="firstBaseline" secondItem="3G2-aT-yl8" secondAttribute="baseline" constant="194.66666666666674" id="JsJ-0e-vZf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sXv-N2-RIl" secondAttribute="bottom" constant="20" id="PXi-h9-Jd3"/>
                             <constraint firstItem="bpN-gh-C3p" firstAttribute="top" secondItem="qHR-bn-QYh" secondAttribute="bottom" constant="100" id="QDd-9B-zqH"/>
                             <constraint firstItem="sXv-N2-RIl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SHq-1G-0sQ"/>
+                            <constraint firstItem="3G2-aT-yl8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Tln-aW-3YU"/>
                             <constraint firstItem="bpN-gh-C3p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Vf5-Mh-OQC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bpN-gh-C3p" secondAttribute="trailing" constant="20" id="ZHP-op-Gbr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qHR-bn-QYh" secondAttribute="trailing" constant="10" id="qmQ-kp-f6R"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="Pyu-fE-UY1" id="vG6-Yl-tYh"/>
+                        <outlet property="lodingIndicator" destination="3G2-aT-yl8" id="xfU-NC-ye4"/>
+                        <outlet property="loginButton" destination="Bat-Iq-4h7" id="0gI-z8-yqf"/>
+                        <outlet property="loginWithWebSiteButton" destination="PXj-Kx-uXR" id="ePr-JN-XZP"/>
+                        <outlet property="passwordTextField" destination="1vu-5d-MFt" id="wJM-NN-Mlh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
