@@ -21,6 +21,35 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        resetUI()
+    }
+    
+    private func resetUI () {
+        emailTextField.text = ""
+        passwordTextField.text = ""
+    }
+    private func setLoggingIn(_ loggingIn : Bool) {
+        if loggingIn {
+            lodingIndicator.startAnimating()
+        } else {
+            lodingIndicator.stopAnimating()
+        }
+        
+        emailTextField.isEnabled = !loggingIn
+        passwordTextField.isEnabled = !loggingIn
+        loginButton.isEnabled = !loggingIn
+        loginWithWebSiteButton.isEnabled = !loggingIn
+    }
+    
+    
+    @IBAction func loginTapped(_ sender: Any) {
+        setLoggingIn(true)
+    }
+    
 
 
 }
