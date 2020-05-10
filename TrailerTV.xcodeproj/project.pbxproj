@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4937D09C2467D792001E6FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4937D09B2467D792001E6FE6 /* AppDelegate.swift */; };
-		4937D0A02467D792001E6FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4937D09F2467D792001E6FE6 /* ViewController.swift */; };
+		4937D0A02467D792001E6FE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4937D09F2467D792001E6FE6 /* LoginViewController.swift */; };
 		4937D0A32467D792001E6FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4937D0A12467D792001E6FE6 /* Main.storyboard */; };
 		4937D0A52467D793001E6FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4937D0A42467D793001E6FE6 /* Assets.xcassets */; };
 		4937D0A82467D793001E6FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4937D0A62467D793001E6FE6 /* LaunchScreen.storyboard */; };
+		49DB73DE2467DFD10096A824 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB73DD2467DFD10096A824 /* GradientView.swift */; };
+		49DB73E02467E07C0096A824 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB73DF2467E07C0096A824 /* Colors.swift */; };
+		49DB73E32467E1270096A824 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DB73E22467E1270096A824 /* Color.xcassets */; };
 		A5B24E662BF6D35CE1D7D05B /* Pods_TrailerTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91C9C3810963739D3CA3564 /* Pods_TrailerTV.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +22,14 @@
 		0CB33A99657CD88AEB70B643 /* Pods-TrailerTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailerTV.release.xcconfig"; path = "Target Support Files/Pods-TrailerTV/Pods-TrailerTV.release.xcconfig"; sourceTree = "<group>"; };
 		4937D0982467D792001E6FE6 /* TrailerTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4937D09B2467D792001E6FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4937D09F2467D792001E6FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4937D09F2467D792001E6FE6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4937D0A22467D792001E6FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4937D0A42467D793001E6FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4937D0A72467D793001E6FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4937D0A92467D793001E6FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DB73DD2467DFD10096A824 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		49DB73DF2467E07C0096A824 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		49DB73E22467E1270096A824 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		60837C6E39B089579B8DC6FE /* Pods-TrailerTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailerTV.debug.xcconfig"; path = "Target Support Files/Pods-TrailerTV/Pods-TrailerTV.debug.xcconfig"; sourceTree = "<group>"; };
 		A91C9C3810963739D3CA3564 /* Pods_TrailerTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrailerTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,14 +67,41 @@
 		4937D09A2467D792001E6FE6 /* TrailerTV */ = {
 			isa = PBXGroup;
 			children = (
+				49DB73E12467E1090096A824 /* Assets */,
+				49DB73DC2467DF7D0096A824 /* Views */,
+				49DB73DB2467DF440096A824 /* ViewControllers */,
 				4937D09B2467D792001E6FE6 /* AppDelegate.swift */,
-				4937D09F2467D792001E6FE6 /* ViewController.swift */,
-				4937D0A12467D792001E6FE6 /* Main.storyboard */,
-				4937D0A42467D793001E6FE6 /* Assets.xcassets */,
-				4937D0A62467D793001E6FE6 /* LaunchScreen.storyboard */,
-				4937D0A92467D793001E6FE6 /* Info.plist */,
+				4937D09F2467D792001E6FE6 /* LoginViewController.swift */,
 			);
 			path = TrailerTV;
+			sourceTree = "<group>";
+		};
+		49DB73DB2467DF440096A824 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		49DB73DC2467DF7D0096A824 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49DB73DD2467DFD10096A824 /* GradientView.swift */,
+				49DB73DF2467E07C0096A824 /* Colors.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49DB73E12467E1090096A824 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4937D0A12467D792001E6FE6 /* Main.storyboard */,
+				4937D0A62467D793001E6FE6 /* LaunchScreen.storyboard */,
+				4937D0A42467D793001E6FE6 /* Assets.xcassets */,
+				4937D0A92467D793001E6FE6 /* Info.plist */,
+				49DB73E22467E1270096A824 /* Color.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		B0DE403419198E29F7D48618 /* Frameworks */ = {
@@ -149,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4937D0A82467D793001E6FE6 /* LaunchScreen.storyboard in Resources */,
+				49DB73E32467E1270096A824 /* Color.xcassets in Resources */,
 				4937D0A52467D793001E6FE6 /* Assets.xcassets in Resources */,
 				4937D0A32467D792001E6FE6 /* Main.storyboard in Resources */,
 			);
@@ -203,8 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4937D0A02467D792001E6FE6 /* ViewController.swift in Sources */,
+				4937D0A02467D792001E6FE6 /* LoginViewController.swift in Sources */,
+				49DB73E02467E07C0096A824 /* Colors.swift in Sources */,
 				4937D09C2467D792001E6FE6 /* AppDelegate.swift in Sources */,
+				49DB73DE2467DFD10096A824 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
