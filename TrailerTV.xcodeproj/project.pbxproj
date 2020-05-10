@@ -18,6 +18,7 @@
 		49DB73E72467EC160096A824 /* TMDBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB73E62467EC160096A824 /* TMDBClient.swift */; };
 		49DB73EA2467EDE40096A824 /* RequestTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB73E92467EDE40096A824 /* RequestTokenResponse.swift */; };
 		49DB73EC2467EE320096A824 /* TMDBResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB73EB2467EE320096A824 /* TMDBResponse.swift */; };
+		49DB73EF2467F00C0096A824 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB73EE2467F00C0096A824 /* LoginRequest.swift */; };
 		A5B24E662BF6D35CE1D7D05B /* Pods_TrailerTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91C9C3810963739D3CA3564 /* Pods_TrailerTV.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		49DB73E62467EC160096A824 /* TMDBClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBClient.swift; sourceTree = "<group>"; };
 		49DB73E92467EDE40096A824 /* RequestTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTokenResponse.swift; sourceTree = "<group>"; };
 		49DB73EB2467EE320096A824 /* TMDBResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBResponse.swift; sourceTree = "<group>"; };
+		49DB73EE2467F00C0096A824 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		60837C6E39B089579B8DC6FE /* Pods-TrailerTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailerTV.debug.xcconfig"; path = "Target Support Files/Pods-TrailerTV/Pods-TrailerTV.debug.xcconfig"; sourceTree = "<group>"; };
 		A91C9C3810963739D3CA3564 /* Pods_TrailerTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrailerTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 		49DB73E42467EBE80096A824 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				49DB73ED2467EFF20096A824 /* Login */,
 				49DB73E82467EDCA0096A824 /* TMDBResponse */,
 				49DB73E52467EBFC0096A824 /* Client */,
 			);
@@ -135,6 +138,14 @@
 				49DB73EB2467EE320096A824 /* TMDBResponse.swift */,
 			);
 			name = TMDBResponse;
+			sourceTree = "<group>";
+		};
+		49DB73ED2467EFF20096A824 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				49DB73EE2467F00C0096A824 /* LoginRequest.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 		B0DE403419198E29F7D48618 /* Frameworks */ = {
@@ -277,6 +288,7 @@
 				4937D09C2467D792001E6FE6 /* AppDelegate.swift in Sources */,
 				49DB73EA2467EDE40096A824 /* RequestTokenResponse.swift in Sources */,
 				49DB73DE2467DFD10096A824 /* GradientView.swift in Sources */,
+				49DB73EF2467F00C0096A824 /* LoginRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
